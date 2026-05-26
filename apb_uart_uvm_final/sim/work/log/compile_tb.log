@@ -1,0 +1,32 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 14:08:15 on Feb 04,2026
+vlog -64 -sv "+acc=all" -f C:\Users\ADMIN\Documents\apb_uart_uvm_final\apb_uart_uvm_final\sim\work\._wrun_tmp\filelist_com.f -f C:\Users\ADMIN\Documents\apb_uart_uvm_final\apb_uart_uvm_final\sim\work\._wrun_tmp\filelist_tb.f -l log\compile_tb.log 
+-- Compiling package uart_regs_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) ../../lib/register_block/sim/regassistant/uart_regs_pkg.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package apb_pkg
+-- Compiling package uart_pkg
+-- Compiling package apb_seq_pkg
+-- Importing package uart_regs_pkg
+-- Importing package apb_pkg
+-- Compiling package uart_seq_pkg
+-- Importing package uart_pkg
+-- Compiling interface apb_intf
+-- Compiling interface uart_tx_intf
+-- Compiling interface uart_rx_intf
+-- Compiling module apb_sva
+-- Compiling module uart_tx_sva
+-- Compiling module uart_rx_sva
+** Warning: ** while parsing file included at ../src/test_comp/apb_uart_test_top.sv(8)
+** while parsing file included at ../src/test_comp/apb_uart_testcase_include.svh(9)
+** at ../src/test_comp/apb_uart_test_read_6_bit.sv(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling package apb_uart_test_top_sv_unit
+-- Importing package apb_seq_pkg
+-- Importing package uart_seq_pkg
+** Warning: ../src/test_comp/apb_uart_test_read_6_bit.sv(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module apb_uart_test_top
+
+Top level modules:
+	apb_uart_test_top
+End time: 14:08:16 on Feb 04,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 3

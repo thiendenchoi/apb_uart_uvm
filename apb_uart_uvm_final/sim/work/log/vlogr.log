@@ -1,0 +1,9 @@
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 03:33:25 on Jan 27,2026
+vlog -f filelist_com.f -f filelist_rtl.f "+cover=bcefs" -l ./log/vlogr.log 
+-- Compiling module uart
+
+Top level modules:
+	uart
+End time: 03:33:25 on Jan 27,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

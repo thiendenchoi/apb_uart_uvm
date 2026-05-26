@@ -1,0 +1,26 @@
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 03:33:25 on Jan 27,2026
+vlog -f filelist_com.f -f filelist_vsim.f -f filelist_tb.f -l ./log/vlogt.log 
+** Note: (vlog-2286) ../../lib/register_block/sim/regassistant/uart_regs_pkg.sv(5): Using implicit +incdir+/home/dokhoi/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package uart_regs_pkg
+-- Compiling package apb_pkg
+-- Compiling package uart_pkg
+-- Compiling package apb_seq_pkg
+-- Compiling package uart_seq_pkg
+-- Compiling interface apb_intf
+-- Compiling interface uart_tx_intf
+-- Compiling interface uart_rx_intf
+-- Compiling module apb_sva
+-- Compiling module uart_tx_sva
+-- Compiling module uart_rx_sva
+** Warning: ** while parsing file included at ../src/test_comp/apb_uart_test_top.sv(8)
+** while parsing file included at ../src/test_comp/apb_uart_testcase_include.svh(9)
+** at ../src/test_comp/apb_uart_test_read_6_bit.sv(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: ../src/test_comp/apb_uart_test_read_6_bit.sv(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling package apb_uart_test_top_sv_unit
+-- Compiling module apb_uart_test_top
+
+Top level modules:
+	apb_uart_test_top
+End time: 03:33:26 on Jan 27,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2

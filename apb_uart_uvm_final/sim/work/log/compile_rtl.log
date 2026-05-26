@@ -1,0 +1,9 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 14:08:15 on Feb 04,2026
+vlog -64 -sv "+acc=all" "+cover=bcefs" -f C:\Users\ADMIN\Documents\apb_uart_uvm_final\apb_uart_uvm_final\sim\work\._wrun_tmp\filelist_com.f -f C:\Users\ADMIN\Documents\apb_uart_uvm_final\apb_uart_uvm_final\sim\work\._wrun_tmp\filelist_rtl.f -l log\compile_rtl.log 
+-- Compiling module uart
+
+Top level modules:
+	uart
+End time: 14:08:15 on Feb 04,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1

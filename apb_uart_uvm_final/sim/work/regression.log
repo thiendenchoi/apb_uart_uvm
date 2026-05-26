@@ -1,0 +1,170 @@
+[START] Wed 02/04/2026 14:04:55.30 
+--------------------------------------- 
+[PASS] apb_uart_test_read_2_stop_bit 
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    0 
+--------------------------------------- 
+[PASS] apb_uart_test_read_6_bit 
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    0 
+--------------------------------------- 
+[PASS] apb_uart_test_read_no_parity 
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    0 
+--------------------------------------- 
+[FAIL] apb_uart_test_read_parity_even 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../src/test_comp/apb_uart_test_read_parity_even.sv(82) @ 95830: uvm_test_top [READ] PARITY ERROR
+# UVM_WARNING :    0
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    1 
+--------------------------------------- 
+[FAIL] apb_uart_test_read_parity_odd 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../src/test_comp/apb_uart_test_read_parity_odd.sv(82) @ 95830: uvm_test_top [READ] PARITY ERROR
+# UVM_WARNING :    0
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    1 
+--------------------------------------- 
+[FAIL] apb_uart_test_simple 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../lib/uart_vip/uart_rx/uart_rx_monitor.sv(63) @ 195590: uvm_test_top.m_apb_uart_env.m_uart_rx_agent.rx_monitor [RX_ERROR] Parity bit fail
+# UVM_WARNING ../src/uvm_comp/apb_uart_uart_scoreboard.sv(42) @ 212950: uvm_test_top.m_apb_uart_env.uart_sb [UART_SB] RX parity_error on 0x55
+# UVM_WARNING :    1
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    1 
+     # UVM_ERROR :    1 
+--------------------------------------- 
+[PASS] apb_uart_test_write_2_stop_bit 
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    0 
+--------------------------------------- 
+[PASS] apb_uart_test_write_6_bit 
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    0 
+--------------------------------------- 
+[PASS] apb_uart_test_write_no_parity 
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    0 
+--------------------------------------- 
+[FAIL] apb_uart_test_write_parity_even 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../lib/uart_vip/uart_rx/uart_rx_monitor.sv(63) @ 91190: uvm_test_top.m_apb_uart_env.m_uart_rx_agent.rx_monitor [RX_ERROR] Parity bit fail
+# UVM_WARNING ../src/uvm_comp/apb_uart_uart_scoreboard.sv(42) @ 108550: uvm_test_top.m_apb_uart_env.uart_sb [UART_SB] RX parity_error on 0x55
+# UVM_WARNING :    1
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    1 
+     # UVM_ERROR :    1 
+--------------------------------------- 
+[FAIL] apb_uart_test_write_parity_odd 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../lib/uart_vip/uart_rx/uart_rx_monitor.sv(63) @ 91190: uvm_test_top.m_apb_uart_env.m_uart_rx_agent.rx_monitor [RX_ERROR] Parity bit fail
+# UVM_WARNING ../src/uvm_comp/apb_uart_uart_scoreboard.sv(42) @ 108550: uvm_test_top.m_apb_uart_env.uart_sb [UART_SB] RX parity_error on 0x55
+# UVM_WARNING :    1
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    1 
+     # UVM_ERROR :    1 
+--------------------------------------- 
+[FAIL] apb_uart_test_write_pstrb_0 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../lib/uart_vip/uart_rx/uart_rx_monitor.sv(63) @ 91190: uvm_test_top.m_apb_uart_env.m_uart_rx_agent.rx_monitor [RX_ERROR] Parity bit fail
+# UVM_WARNING ../src/uvm_comp/apb_uart_uart_scoreboard.sv(42) @ 108550: uvm_test_top.m_apb_uart_env.uart_sb [UART_SB] RX parity_error on 0x55
+# UVM_WARNING :    1
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    1 
+     # UVM_ERROR :    1 
+--------------------------------------- 
+[FAIL] apb_uart_test_write_read_reg 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../src/test_comp/apb_uart_test_write_read_reg.sv(79) @ 430: uvm_test_top [APB PROTOCOL] REG DATA ERROR in CFG REG
+# UVM_WARNING :    0
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    0 
+     # UVM_ERROR :    1 
+--------------------------------------- 
+[FAIL] apb_uart_test_write_reg_error 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_WARNING ../lib/apb_vip/apb/apb_reg_adapter.sv(44) @ 70: reporter [apb_reg_adapter] APB PSLVERR=1 at addr=0x10 -> skip RAL update
+# UVM_WARNING ../src/uvm_comp/apb_uart_apb_scoreboard.sv(28) @ 70: uvm_test_top.m_apb_uart_env.apb_sb [APB_SB] PSLVERR on access addr=0x10 write=1
+# UVM_ERROR ../src/uvm_comp/apb_uart_apb_scoreboard.sv(62) @ 70: uvm_test_top.m_apb_uart_env.apb_sb [APB_SB] SS (0x10) is RO but got WRITE
+# UVM_WARNING ../lib/apb_vip/apb/apb_reg_adapter.sv(44) @ 130: reporter [apb_reg_adapter] APB PSLVERR=1 at addr=0x4 -> skip RAL update
+# UVM_WARNING ../src/uvm_comp/apb_uart_apb_scoreboard.sv(28) @ 130: uvm_test_top.m_apb_uart_env.apb_sb [APB_SB] PSLVERR on access addr=0x4 write=1
+# UVM_ERROR ../src/uvm_comp/apb_uart_apb_scoreboard.sv(48) @ 130: uvm_test_top.m_apb_uart_env.apb_sb [APB_SB] RX_DATA (0x4) is RO but got WRITE
+# UVM_ERROR ../src/test_comp/apb_uart_test_write_reg_error.sv(44) @ 130: uvm_test_top [APB_RO_WRITE] STT(RO): PREADY not seen as 1 (or driver didn't sample correctly)
+# UVM_ERROR ../src/test_comp/apb_uart_test_write_reg_error.sv(47) @ 130: uvm_test_top [APB_RO_WRITE] RX_DATA(RO): PREADY not seen as 1 (or driver didn't sample correctly)
+# UVM_WARNING :    4
+# UVM_ERROR :    4
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    4 
+     # UVM_ERROR :    4 
+--------------------------------------- 
+[FAIL] apb_uart_test_write_check_tx_done 
+     --- Chi tiet cac dong loi --- 
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 1
+Errors: 0, Warnings: 3
+# UVM_ERROR ../lib/uart_vip/uart_rx/uart_rx_monitor.sv(63) @ 91190: uvm_test_top.m_apb_uart_env.m_uart_rx_agent.rx_monitor [RX_ERROR] Parity bit fail
+# UVM_WARNING ../src/uvm_comp/apb_uart_uart_scoreboard.sv(42) @ 108550: uvm_test_top.m_apb_uart_env.uart_sb [UART_SB] RX parity_error on 0x55
+# UVM_WARNING :    1
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# Errors: 0, Warnings: 0
+     # Errors: 0, Warnings: 0 
+     # UVM_WARNING :    1 
+     # UVM_ERROR :    1 
+--------------------------------------- 
